@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <div class=" flex space-x-4 p-8 bg-orange-200 font-bold">
+        <a class="hover:text-orange-600" href="index.html">Home</a>
+        <a class="hover:text-orange-600"href="category.html">Category</a>
+        <a class="hover:text-orange-600"href="products.html">Products</a>
+        <a  class="hover:text-orange-600  text-orange-600" href="contact.html">Contact</a>
+    </div>
+
+    <div class="lg:grid lg:place-content-center">
+    <div class="mt-16 p-10 bg-orange-200 w-[1000px] h-[700px] ">
+    <h1 class="text-3xl font-bold ">Get in Touch</h1>
+    <div class="lg:flex ">
+        <div class="p-5 lg:mr-24">
+            <label for="name">Your Name</label></br>
+            <input  class="p-2 w-52"  type="text" id="name" name="name" placeholder="Enter your name"></br></br>
+
+            <label for="subject">Subject</label></br>
+            <input  class="p-2 w-52" type="text" id="subject" name="subject" placeholder="Enter your subject"></br></br>
+
+            <label for="message">Message</label></br>
+            <input  class="p-2 w-52" type="text" id="message" name="message" placeholder="Enter your message"></br></br>
+        </div>
+
+        <div class="p-5">
+            <label for="email">Your Email</label></br>
+            <input  class="p-2 w-52" type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+    </div>
+        <button class="bg-black text-white p-5 w-52 ml-5">Send Message</button>
+    </div>
+</div>
+    
+</body>
+</html>
